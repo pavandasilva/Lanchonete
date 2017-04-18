@@ -18,6 +18,6 @@ Firebird com DBExpress
 58 HORAS.
 
 ## Keywords
-Programação Orientada a Objetos, Delphi, DBExpress, arquivo INI, Printer, SQL, Firebird, SqlQuery, SqlConnection.
+Programação Orientada a Objetos, Delphi, DBExpress, arquivo INI, Printer, SQL, Firebird, SqlQuery, SqlConnection, Pascal.
   
 
