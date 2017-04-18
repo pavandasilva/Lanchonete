@@ -1,0 +1,14 @@
+﻿[pnTopo]
+Coordinates=550,10,52,51
+
+[ImageList1]
+Coordinates=269,278,77,36
+
+[]
+Coordinates=188,278,62,33
+Visible=True
+ExplicitSubNodes=Data
+
+[imgFechar]
+Coordinates=618,10,49,51
+

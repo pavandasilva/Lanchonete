@@ -1,0 +1,21 @@
+Nome Fantasia:Lanchonete Grande Mordida
+Razão Social:Mario Garcia de Mello
+CNPJ:15.568.885.555/6654-44
+Endereco:Rua Paulo Coelho Dentuço nº 23
+Bairro:Vila Bolo de Cenoura
+Telefone:(33)3333-3333 (33)3333-3333
+====================================================
+CODIGO No 135
+18/04/2017 03:44:29
+====================================================
+ITENS:
+Coca-Cola Lata R$ 4,00 x 1UN = R$ 4,00
+=====================================================
+PRODUTOS   : R$ 4,00
+ENTREGA    : R$ 5,00
+TROCO PARA : R$ 100,00(R$ 91,00)
+=====================================================
+DADOS DO CLIENTE:
+CLIENTE  : Pedro de Lara
+ENDERECO : Rua Porto de Núbia 345
+BAIRRO   : Vila Padre Santoro
