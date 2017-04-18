@@ -14,7 +14,10 @@ Firebird com DBExpress
 <p>Gerenciamento de Mesas                        - <b>Em Breve</b></p>
 <p>Sistema De Login                              - <b>Em Breve</b></p>
 
-## TEMPO DE DESENVOLVIMENTO
+## Tempo de Desenvolvimento
 58 HORAS
+
+##Keywords
+Programação Orientada a Objetos, Delphi, DBExpress, arquivo INI, Printer, SQL, Firebird, SqlQuery, SqlConnection.
   
 
