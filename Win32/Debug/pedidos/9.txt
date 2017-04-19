@@ -1,0 +1,22 @@
+Nome Fantasia:Lanchonete Grande Mordida
+Razão Social:Mario Garcia de Mello
+CNPJ:15.568.885.555/6654-44
+Endereco:Rua Paulo Coelho Dentuço nº 23
+Bairro:Vila Bolo de Cenoura
+Telefone:(33)3333-3333 (33)3333-3333
+====================================================
+CODIGO No 9
+18/04/2017 21:20:29
+====================================================
+ITENS:
+Coca Cola Pet 2L R$ 10,00 x 1UN = R$ 10,00
+Hamburguer Duplo R$ 13,00 x 2UN = R$ 26,00
+=====================================================
+PRODUTOS   : R$ 36,00
+ENTREGA    : R$ 5,00
+TROCO PARA : R$ 50,00(R$ 9,00)
+=====================================================
+DADOS DO CLIENTE:
+CLIENTE  : Carme Luz Prestes
+ENDERECO : Rua Tereza Perlatti nº 345
+BAIRRO   : Vila Repouso Feliz
