@@ -55,17 +55,13 @@
 Win32/
 images/
 database/
+*.txt
 *.fdb
 *.ico
 *.png
 *.bmp
-# Para todos os arquivos e sub-pastas localizados na pastas /images /win32
-Win32/
-images/
-database/
-dll/
-
-
+*.jpg
+*.jpeg
 # Delphi local files (user-specific info)
 *.local
 *.identcache
