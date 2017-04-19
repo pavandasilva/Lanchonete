@@ -128,7 +128,7 @@ object frmVendaEntregaVIew: TfrmVendaEntregaVIew
     Margins.Top = 0
     Margins.Right = 0
     Margins.Bottom = 0
-    ActivePage = tshTela2
+    ActivePage = tshTela3
     Align = alClient
     Style = tsButtons
     TabOrder = 1
@@ -637,7 +637,6 @@ object frmVendaEntregaVIew: TfrmVendaEntregaVIew
           WantReturns = False
           WordWrap = False
           OnClick = meDetalhePedidoClick
-          ExplicitWidth = 285
         end
       end
       object paPagamento: TPanel
@@ -652,7 +651,6 @@ object frmVendaEntregaVIew: TfrmVendaEntregaVIew
         Color = 8876339
         ParentBackground = False
         TabOrder = 2
-        ExplicitLeft = 411
         object Label5: TLabel
           Left = 42
           Top = 50
@@ -758,7 +756,7 @@ object frmVendaEntregaVIew: TfrmVendaEntregaVIew
     Left = 552
     Top = 16
     Bitmap = {
-      494C01010B009800F40020002000FFFFFFFF2110FFFFFFFFFFFFFFFF424D3600
+      494C01010B009800F80020002000FFFFFFFF2110FFFFFFFFFFFFFFFF424D3600
       00000000000036000000280000008000000060000000010020000000000000C0
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000000000

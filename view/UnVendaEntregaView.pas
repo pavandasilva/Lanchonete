@@ -111,6 +111,7 @@ type
     procedure Imprimir;
     function GeraStringListPedido:TStringList;
     procedure ConfiguraCheckBoxImprimir;
+    procedure CriarLogPedido;
     const
       _pathIni = 'config/config.ini';
   public
@@ -217,7 +218,7 @@ begin
      result.Add('CLIENTE  : ' + TCliente(umPedido.Cliente).Nome);
      result.Add('ENDERECO : ' + TCliente(umPedido.Cliente).Endereco);
      result.Add('BAIRRO   : ' + TCliente(umPedido.Cliente).BAIRRO);
-   except
+   finally
      umIniFile.Free;
    end;
 
@@ -259,7 +260,7 @@ begin
     Exit;
   end;
   SalvarPedido; //salva o pedido
-  umFormControl.CriarPedidoTxt(GeraStringListPedido,intToStr(umPedido.ID));//gera um Log do pedido
+  CriarLogPedido;
   if cbImprimir.Checked then   //se o usuario quiser que imprima
     Imprimir;
   Close;
@@ -449,12 +450,14 @@ end;
 procedure TfrmVendaEntregaVIew.Imprimir;
 var
   umIniFile : TIniFile;
+  umaStringList : TStringList;
 begin
   umIniFile := TIniFile.Create(_pathIni);
+  umaStringList := GeraStringListPedido;
   try
     if umIniFile.ReadString('printer','device','') <> '' then
       try
-        umFormControl.Imprimir(GeraStringListPedido, umIniFile.ReadString('printer','device',''))
+        umFormControl.Imprimir(umaStringList, umIniFile.ReadString('printer','device',''))
       except
       on E : Exception do
         frmShowMessages.showMessage(iError,E.ClassName+ 'Não foi possível imprimir. Erro: '+E.Message);
@@ -462,6 +465,7 @@ begin
     else
       frmShowMessages.showMessage(iError, 'É preciso configurar as impressoras em "Configurações"');
   finally
+    FreeAndNil(umaStringList);
     umIniFile.Free;
   end;
 end;
@@ -672,6 +676,18 @@ begin
       cbImprimir.Checked := false;
   finally
     umIniFile.Free;
+  end;
+end;
+
+procedure TfrmVendaEntregaVIew.CriarLogPedido;
+var
+  umaStringList : TStringList;
+begin
+  umaStringList := GeraStringListPedido;
+  try
+    umFormControl.CriarPedidoTxt(umaStringList,intToStr(umPedido.ID));//gera um Log do pedido
+  finally
+    FreeAndNil(umaStringList);
   end;
 end;
 
