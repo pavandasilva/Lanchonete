@@ -51,6 +51,12 @@
 *.cfg
 *.hpp
 *Resource.rc
+# Para todos os arquivos e sub-pastas localizados na pastas /images /win32
+Win32/
+images/
+database/
+dll/
+
 
 # Delphi local files (user-specific info)
 *.local
